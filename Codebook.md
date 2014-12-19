@@ -61,6 +61,7 @@ The final tidy data set has 180 obseravations achieved by taking the avaerage fo
 ### The variables in the tidy data set
 
 - **Activity**: The activity names. One of: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+- **Subject**: The subject, identified by a number between 1 and 30
 - **tBodyAcc-mean-X**: Average of the mean body linear acceleration in the X direction (Unit: G)
 - **tBodyAcc-mean-Y**: Average of the mean body linear acceleration in the Y direction (Unit: G)
 - **tBodyAcc-mean-Z**: Average of the mean body linear acceleration in the Y direction (Unit: G)
