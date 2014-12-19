@@ -25,6 +25,9 @@ data <- rbind(test_set, train_set)
 # Remove "()" from feature names
 featureNames <- gsub("()", "", features[mean_std_features], fixed = TRUE)
 
+# Fix the mistaken names in the original data set with "BodyBody" 
+featureNames <- gsub("BodyBody", "Body", featureNames)
+
 ## Add the labels (descriptive column names)
 colnames(data) <- c("Subject", "ACT_CODE", featureNames)
 
